@@ -1,0 +1,30 @@
+.ModalComponents{
+    background-image:url(https://planetofhotels.com/guide/sites/default/files/styles/paragraph__hero_banner__hb_image__1880bp/public/hero_banner/Horseshoe_waterfall.jpg);
+    width:100%;
+    height:100%;
+    background-size:cover;
+}
+.continue{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    bottom:100px;
+    height:60px;
+    border:none;
+    border-radius: 40px;
+    background-color: #cced6e;
+    color:#5e8884;
+    font-size:20px;
+}
+.headingModal{
+    color:#00e4ce;
+    font-size:20px;
+}
+.bodyModalText{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    color:yellow;
+    font-size:20px;
+    width:300px;
+ }
