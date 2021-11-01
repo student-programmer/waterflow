@@ -1,11 +1,9 @@
 import React from 'react'
 import slider from "./SliderComponent.module.css"
 import Carousel from "react-bootstrap/Carousel"
-import code from "./../../assets/code.jpg"
-import ship from "./../../assets/ship.jpg"
-import Button from 'react-bootstrap/Button';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
-const SliderComponent = () => {
+const SliderComponent = ({ship, code}) => {
     return (
 <Carousel>
     <Carousel.Item>
