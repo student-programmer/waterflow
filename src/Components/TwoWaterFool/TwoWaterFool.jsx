@@ -6,14 +6,19 @@ import djur2 from './../../assets/djur2.jpg';
 import djur3 from './../../assets/djur3.jpg';
 import djur4 from './../../assets/djur4.jpg';
 const TwoWaterFool = () => {
+    const time = 5000;
     return (
         <div className={two.wrapperWater}>
-            <SliderComponent
-                vodopad1={djur1}
-                vodopad2={djur2}
-                vodopad3={djur3}
-                vodopad4={djur4}
-            />
+            <div className={two.slider}>
+                <SliderComponent
+                    vodopad1={djur1}
+                    vodopad2={djur2}
+                    vodopad3={djur3}
+                    vodopad4={djur4}
+                    time={time}
+                />
+            </div>
+
             <div className={two.discription}>
                 <h1 className={two.name}>Джур-Джур</h1>
                 <p className={two.discriptionText}>

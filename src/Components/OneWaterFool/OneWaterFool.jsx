@@ -5,15 +5,21 @@ import vodopad1 from './../../assets/vodopad1.jpg';
 import vodopad2 from './../../assets/vodopad2.jpg';
 import vodopad3 from './../../assets/vodopad3.jpg';
 import vodopad4 from './../../assets/vodopad4.jpg';
+import SliderComponentNegative from '../SliderTwoVersionNegative/SliderComponentNegative';
 const OneWaterFool = () => {
+    const time = 4000;
     return (
         <div className={one.wrapperWater}>
-            <SliderComponent
+              <div className={one.slider}> 
+              <SliderComponentNegative
                 vodopad1={vodopad1}
                 vodopad2={vodopad2}
                 vodopad3={vodopad3}
                 vodopad4={vodopad4}
+                time={time}
             />
+              </div>
+ 
             <div className={one.discription}>
                 <h1 className={one.name}>Учан-Су</h1>
                 <p className={one.discriptionText}>

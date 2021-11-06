@@ -1,14 +1,25 @@
 import React from 'react';
-import SliderComponent from '../SliderTwoVersion/SliderComponent';
 import three from './ThreeWaterFool.module.css';
 import su from './../../assets/su.jpg';
 import su1 from './../../assets/su1.jpg';
 import su2 from './../../assets/su2.jpg';
+import su3 from './../../assets/su3.jpg';
+import SliderComponentNegative from '../SliderTwoVersionNegative/SliderComponentNegative';
 
 const ThreeWaterFool = () => {
+    const time = 3000;
     return (
         <div className={three.wrapperWater}>
-            <SliderComponent vodopad1={su} vodopad2={su1} vodopad3={su2} />
+            <div className={three.slider}>
+                <SliderComponentNegative
+                    vodopad1={su}
+                    vodopad2={su1}
+                    vodopad3={su2}
+                    vodopad4={su3}
+                    time={time}
+                />
+            </div>
+
             <div className={three.discription}>
                 <h1 className={three.name}>Су-Учхан</h1>
                 <p className={three.discriptionText}>

@@ -3,7 +3,7 @@ import  './SliderComponent.css';
 import {useState, useEffect} from "react"
 
 
-const SliderComponent = ({vodopad1, vodopad2, vodopad3, vodopad4}) => {
+const SliderComponent = ({vodopad1, vodopad2, vodopad3, vodopad4, time}) => {
     const [activeIndex, setActiveIndex] = useState(0);
     const img = [
         <img className="imgShip" key={vodopad1} src={vodopad1} />,
@@ -21,7 +21,7 @@ const SliderComponent = ({vodopad1, vodopad2, vodopad3, vodopad4}) => {
                 // Возвращаем индекс
                 return res
             })
-        }, 4000)
+        }, time)
         return () => clearInterval()
     }, [])
     const prevImgIndex = activeIndex ? activeIndex - 1 : img.length - 1

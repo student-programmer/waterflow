@@ -1,0 +1,35 @@
+.wrapperWater{
+    width:100%;
+    height:1000px;
+    position:relative;
+
+    
+}
+.name{
+    position:absolute;
+    top:130px;
+    font-size:30px;
+    font-weight: bold;
+}
+.discription{
+    display:flex;
+justify-content: center;
+ width:700px;
+ height:900px;
+ position:absolute;
+ left:50px;
+
+}
+.discriptionText{
+    width:600px;
+    position:absolute;
+    top:200px;
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+}
+.slider{
+    position:relative;
+    left:800px;
+    top:50%;
+    transform: translateY(-50%);
+}

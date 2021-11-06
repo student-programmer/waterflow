@@ -1,0 +1,8 @@
+.wrapper{
+    width:100%;
+    height:1000px;
+
+    background-image: url(./../../assets/карта.png);
+background-size: cover;
+background-repeat: no-repeat;
+}

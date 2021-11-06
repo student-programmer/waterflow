@@ -18,7 +18,7 @@ const HeadModal = () => {
     return (
         <div className="HeadModal">
                <div className={head.modal}>
-            <button className={head.modalBtn} onClick={toggleModal}>Open</button>
+            {/* <button className={head.modalBtn} onClick={toggleModal}>Open</button> */}
             {modal && <Modal toggleModal={toggleModal}/>}
           </div>
         </div>
