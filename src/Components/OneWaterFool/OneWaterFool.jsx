@@ -9,7 +9,7 @@ import SliderComponentNegative from '../SliderTwoVersionNegative/SliderComponent
 const OneWaterFool = () => {
     const time = 4000;
     return (
-        <div className={one.wrapperWater}>
+        <div id="oneWaterFoll" className={one.wrapperWater}>
               <div className={one.slider}> 
               <SliderComponentNegative
                 vodopad1={vodopad1}
@@ -43,9 +43,10 @@ const OneWaterFool = () => {
                     полноводен, потоки воды бурлят и с грохотом бьются о выступы
                     скалы. Жарким летом водопад пересыхает, но это не
                     останавливает многочисленных любителей дикой природы и
-                    неповторимых пейзажей. Расположен: Крым, городской округ
-                    Ялта, п. Виноградное Координаты: 44.492471, 34.092988
+                    неповторимых пейзажей. 
                 </p>
+                <p className={one.place}>Расположен: Крым, городской округ
+                    Ялта, п. Виноградное Координаты: 44.492471, 34.092988</p>
             </div>
         </div>
     );

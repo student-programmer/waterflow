@@ -11,7 +11,7 @@ import SliderComponent from '../SliderTwoVersion/SliderComponent';
 const SixWaterFool = () => {
     const time = 5000;
     return (
-        <div className={six.wrapperWater}>
+        <div id="sixWaterFoll"className={six.wrapperWater}>
             <div className={six.slider}>
                 <SliderComponent
                     vodopad1={sil}
@@ -38,9 +38,12 @@ const SixWaterFool = () => {
                     созданный князем Ф. Юсуповым для разведения форели;
                     смотровая площадка Каменный поворот.Туристы отмечают, что
                     после обрушения зелёной «шапки» водопад по-прежнему остаётся
-                    интересным для посещения. Местоположение: Бахчисарайский
+                    интересным для посещения. 
+                </p>
+                <p className={six.place}>
+                    Расположен: Бахчисарайский
                     р-н, с. Соколиное. Добраться до водопада можно по трассе
-                    «Бахчисарай-Ялта», двигаться в направлении с. Соколиное.
+                    «Бахчисарай-Ялта», двигаться в направлении с. Соколиное. Координаты: 44.511389, 33.969167
                 </p>
             </div>
         </div>

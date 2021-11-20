@@ -33,3 +33,28 @@ justify-content: center;
     top:50%;
     transform: translateY(-50%);
 }
+.place{
+    width:600px;
+    position:absolute;
+    top:620px;
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+@media screen and (max-width: 1650px) {
+.discription{
+    left:50%;
+    transform: translateX(-50%);
+bottom:0px;
+
+}
+.wrapperWater{
+    top:300px;
+    height:1500px;
+}
+.slider{
+    top:0px;
+left:initial;
+
+}
+}

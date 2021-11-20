@@ -9,7 +9,7 @@ import SliderComponentNegative from '../SliderTwoVersionNegative/SliderComponent
 const ThreeWaterFool = () => {
     const time = 3000;
     return (
-        <div className={three.wrapperWater}>
+        <div id="threeWaterFoll" className={three.wrapperWater}>
             <div className={three.slider}>
                 <SliderComponentNegative
                     vodopad1={su}
@@ -41,9 +41,10 @@ const ThreeWaterFool = () => {
                     жители близлежащих сёл. А в тёплое время года здесь много
                     активных туристов, желающих ощутить на себе бодрящий и
                     омолаживающий эффект, которым славится эта кристально чистая
-                    вода. Расположен: Крым, Симферопольский район, с.
-                    Перевальное Координаты: 44.869847, 34. 344061
+                    вода.
                 </p>
+                <p className={three.place}>Расположен: Крым, Симферопольский район, с.
+                    Перевальное Координаты: 44.869847, 34. 344061 </p>
             </div>
         </div>
     );

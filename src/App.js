@@ -10,10 +10,13 @@ import FourWaterFool from './Components/FourWaterFool/FourWaterFool';
 import FiveWaterFool from './Components/FiveWaterFool/FiveWaterFool';
 import SixWaterFool from './Components/SixWaterFool/SixWaterFool';
 import StartCopmonent from './Components/StartComponents/StartCopmonent';
+import HeaderComponent from './Components/Header/HeaderComponent';
+import Footer from './Components/Footer/Footer';
 
 function App() {
     return (
         <div className='App'>
+            <HeaderComponent/>
             <StartCopmonent/>
             <HeadModal />
             <OneWaterFool />
@@ -22,6 +25,7 @@ function App() {
             <FourWaterFool />
             <FiveWaterFool/>
             <SixWaterFool/>
+            <Footer/>
             {/* <SliderComponent ship={ship}  code={code}/> */}
             {/* <SliderComponent/> */}
         </div>

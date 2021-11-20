@@ -1,8 +1,83 @@
 .wrapper{
     width:100%;
-    height:1000px;
-
-    background-image: url(./../../assets/карта.png);
+    height:1100px;
+position:relative;
+    /* background-image: url(./../../assets/карта.png); */
 background-size: cover;
 background-repeat: no-repeat;
+margin-top:100px;
+}
+.mapNew{
+    width:100%;
+    top:100px;
+    position:relative;
+
+}
+.map{
+    font-size:50px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: bold;
+    height:200px;
+top:-1070px;
+position:relative;
+left:50%;
+transform: translateX(-50%);
+
+}
+.jan{
+    position:absolute;
+    left:550px;
+    top:200px;
+    /* position:relative; 
+    left:-17%;
+    top:-82%; */
+    font-size:40px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: bold;
+    color:red;
+}
+.djur{
+    position:absolute;
+    left:600px;
+    top:500px;
+    font-size:40px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: bold;
+    color:red;
+}
+.su{
+    position:absolute;
+    left:950px;
+    top:950px;
+    font-size:40px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: bold;
+    color:red;
+}
+.kaz{
+    position:absolute;
+    left:1340px;
+    top:530px;
+    font-size:40px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: bold;
+    color:red;
+}
+.arp{
+    position:absolute;
+    left:1000px;
+    top:200px;
+    font-size:40px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: bold;
+    color:rgb(255, 0, 0);
+}
+.silv{
+    position:absolute;
+    left:1410px;
+    top:1050px;
+    font-size:40px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: bold;
+    color:red;
 }

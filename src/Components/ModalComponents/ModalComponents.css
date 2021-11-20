@@ -1,8 +1,9 @@
 .ModalComponents{
-    background-image:url(https://planetofhotels.com/guide/sites/default/files/styles/paragraph__hero_banner__hb_image__1880bp/public/hero_banner/Horseshoe_waterfall.jpg);
+    background-image:url(https://pm1.narvii.com/6875/d340de628d594efe42cd9e3d71e886f39fcac431r1-1280-720v2_hq.jpg);
     width:100%;
     height:100%;
     background-size:cover;
+    border-radius: 60px;
 }
 .continue{
     position:absolute;
@@ -17,14 +18,22 @@
     font-size:20px;
 }
 .headingModal{
-    color:#00e4ce;
-    font-size:20px;
+    color:black;
+    font-size:38px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight:bold;
 }
 .bodyModalText{
     position:absolute;
     left:50%;
     transform:translateX(-50%);
     color:yellow;
-    font-size:20px;
-    width:300px;
+    font-size:27px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight:bold;
+    width:400px;
+    color:white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+
  }

@@ -28,16 +28,16 @@ const SliderComponent = ({vodopad1, vodopad2, vodopad3, vodopad4, time}) => {
 // Вычисляем индекс следующего слайда
 const nextImgIndex = activeIndex === img.length - 1 ? 0 : activeIndex + 1
     return <div>
-         <div className="slider">
-        <div className="slider-img slider-img-prev"
+         <div className="slider2">
+        <div className="slider-img2 slider-img-prev2"
                 key={prevImgIndex}>
             {img[prevImgIndex]}
         </div>
-        <div className="slider-img"
+        <div className="slider-img2"
                 key={activeIndex}>
             {img[activeIndex]}
         </div>
-        <div className="slider-img slider-img-next"
+        <div className="slider-img2 slider-img-next2"
                 key={nextImgIndex}>
             {img[nextImgIndex]}
         </div>

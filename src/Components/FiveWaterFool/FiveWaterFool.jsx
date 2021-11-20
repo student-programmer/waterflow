@@ -10,7 +10,7 @@ import SliderComponentNegative from '../SliderTwoVersionNegative/SliderComponent
 const FiveWaterFool = () => {
     const time = 6000;
     return (
-        <div className={five.wrapperWater}>
+        <div id="fiveWaterFoll" className={five.wrapperWater}>
             <SliderComponentNegative
                 vodopad1={arp}
                 vodopad2={arp2}
@@ -36,9 +36,11 @@ const FiveWaterFool = () => {
                     лучше всего в сезон обильных осадков или во время таяния
                     снега, когда можно в полной мере насладиться красотой их
                     каскадов. Посещение Арпатских водопадов свободное.
-                    Местоположение: городской округ Алушта, п. Зеленогорье.
+                </p>
+                <p className={five.place}>
+                    Расположен:  городской округ Алушта, п. Зеленогорье.
                     Добраться до Зеленогорья можно на рейсовом автобусе из
-                    Алушты, на маршрутках из Судака.
+                    Алушты, на маршрутках из Судака. Координаты: 44.449139, 34.7050
                 </p>
             </div>
         </div>

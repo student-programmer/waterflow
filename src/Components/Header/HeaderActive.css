@@ -1,0 +1,48 @@
+.waterfoolItems{
+    list-style:none;
+    color:white;
+    padding-left:40px;
+    font-size:20px;
+    cursor:pointer;
+}
+.waterfoolItems :hover{
+    color:#42a6f5;
+    transition: all 0.5s;
+    }
+    .waterfoolItems a{
+        color:white;
+        text-decoration:none;
+    
+    }
+  #water .active{
+        color:#42a6f5;
+    }
+    @media screen and (max-width: 1685px) {
+ 
+        .waterfoolItems{
+          padding-left:25px;
+        }
+          }
+   
+     
+          @media screen and (max-width: 1375px) {
+ 
+            .waterfoolItems{
+               
+           font-size:15px;
+            }
+            }
+        @media screen and (max-width: 1060px) {
+     
+            .waterfoolItems{
+           font-size:12px;
+           padding-left:15px;
+            }
+            }
+        @media screen and (max-width: 810px) {
+     
+            .waterfoolItems{
+           font-size:10px;
+           padding-left:10px;
+            }
+            }

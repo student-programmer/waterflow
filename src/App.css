@@ -1,9 +1,13 @@
-
 .App {
-  text-align: center;
-  overflow-x:hidden;
-  overflow-y:hidden;
-  height:10000px;
-  width:100%;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 7300px;
+    width: 100%;
+    position:relative;
 }
-
+@media screen and (max-width: 1650px) {
+    .App {
+        height: 10500px;
+    }
+}
