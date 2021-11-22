@@ -54,3 +54,90 @@
                 transform:translateX(-50%)
             }
             }
+            @media screen and (max-width: 900px) {
+     
+                .slider{
+               width:800px;
+            height:700px;
+                }
+                    }
+            @media screen and (max-width: 800px) {
+         
+                .slider{
+               width:700px;
+            height:600px;
+                }
+                .slider-img{
+                    height:600px;
+                }
+                .imgShip{
+                    height:600px;
+                }
+                .imgcode{
+                    height:600px;
+                }
+                    }
+            @media screen and (max-width: 700px) {
+         
+                .slider{
+               width:600px;
+            height:500px;
+                }
+                .slider-img{
+                    height:500px;
+                }
+                .imgShip{
+                    height:500px;
+                }
+                .imgcode{
+                    height:500px;
+                }
+                    }
+            @media screen and (max-width: 600px) {
+         
+                .slider{
+               width:500px;
+            height:400px;
+                }
+                .slider-img{
+                    height:400px;
+                }
+                .imgShip{
+                    height:400px;
+                }
+                .imgcode{
+                    height:400px;
+                }
+                    }
+                    @media screen and (max-width: 500px) {
+         
+                        .slider{
+                       width:400px;
+                    height:300px;
+                        }
+                        .slider-img{
+                            height:300px;
+                        }
+                        .imgShip{
+                            height:300px;
+                        }
+                        .imgcode{
+                            height:300px;
+                        }
+                            }
+                    @media screen and (max-width: 400px) {
+         
+                        .slider{
+                       width:300px;
+                    height:250px;
+                        }
+                        .slider-img{
+                            height:250px;
+                        }
+                        .imgShip{
+                            height:250px;
+                        }
+                        .imgcode{
+                            height:250px;
+                        }
+                            }

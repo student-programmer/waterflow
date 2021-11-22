@@ -32,3 +32,9 @@ position:absolute;
 bottom:0px;
     }
         }
+        @media screen and (max-width: 400px) {
+         .wrapper{
+             top:7700px
+         }
+              
+              }

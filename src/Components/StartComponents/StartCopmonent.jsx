@@ -4,6 +4,7 @@ import map from "./../../assets/карта2.png"
 const StartCopmonent = () => {
     return (
         <div className={start.wrapper}>
+              
             <img src={map} alt="map"  className={start.mapNew}/>
             {/* <p className={start.jan}>Учан-Су</p>
             <p className={start.djur}>Джур-джур</p>
@@ -11,7 +12,7 @@ const StartCopmonent = () => {
             <p className={start.kaz}>Козырёк</p>
             <p className={start.arp}>Арпатские водопады</p>
             <p className={start.silv}>Серебрянные струи</p> */}
-            <p id="map" className={start.map}>Карта маршрута</p>
+          <p id="map" className={start.map}>Карта маршрута</p>
         </div>
     )
 }

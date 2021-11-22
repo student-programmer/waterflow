@@ -81,3 +81,86 @@ transform: translateX(-50%);
     font-weight: bold;
     color:red;
 }
+@media screen and (max-width: 1800px) {
+     
+    .map{
+top:-84%;
+
+    }
+}
+@media screen and (max-width: 1600px) {
+     
+    .map{
+top:-80%;
+
+    }
+                }
+@media screen and (max-width: 1500px) {
+    .map{
+        top:-86%;
+        
+            }
+    .mapNew{
+        height:1000px;
+    }
+                }
+    @media screen and (max-width: 1280px) {
+         
+    .mapNew{
+        height:800px;
+    }
+    .wrapper{
+        height:900px;
+    }
+                }
+    @media screen and (max-width: 1025px) {
+         
+    .mapNew{
+        height:500px;
+    }
+    .wrapper{
+        height:600px;
+    }
+                }
+    @media screen and (max-width: 780px) {
+        .map{
+            top:-75%;
+            font-size:30px;
+            height:none;
+                }
+         
+    .mapNew{
+        height:400px;
+    }
+    .wrapper{
+        height:500px;
+    }
+                }
+    @media screen and (max-width: 500px) {
+        .map{
+            top:-70%;
+            font-size:25px;
+            height:none;
+                }
+         
+    .mapNew{
+        height:300px;
+    }
+    .wrapper{
+        height:400px;
+    }
+                }
+    @media screen and (max-width: 425px) {
+        .map{
+            top:-60%;
+            font-size:20px;
+            height:none;
+                }
+         
+    .mapNew{
+        height:200px;
+    }
+    .wrapper{
+        height:300px;
+    }
+                }

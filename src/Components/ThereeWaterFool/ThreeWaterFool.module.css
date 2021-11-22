@@ -1,54 +1,94 @@
-.wrapperWater{
-    width:100%;
-    height:1000px;
-    position:relative;
-
-    
+.wrapperWater {
+    width: 100%;
+    height: 1000px;
+    position: relative;
 }
-.name{
-    position:absolute;
-    top:130px;
-    font-size:30px;
+.name {
+    position: absolute;
+    top: 130px;
+    font-size: 30px;
     font-weight: bold;
 }
-.discription{
-    display:flex;
-justify-content: center;
- width:700px;
- height:900px;
- position:absolute;
- right:0px;
-
+.discription {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height: 900px;
+    position: absolute;
+    right: 0px;
 }
-.discriptionText{
-    width:600px;
-    position:absolute;
-    top:200px;
-    font-size:20px;
+.discriptionText {
+    width: 600px;
+    position: absolute;
+    top: 200px;
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
-.place{
-    width:600px;
-    position:absolute;
-    top:805px;
-    font-size:20px;
+.place {
+    width: 600px;
+    position: absolute;
+    top: 805px;
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
 @media screen and (max-width: 1650px) {
-    .discription{
-        left:50%;
+    .discription {
+        left: 50%;
         transform: translateX(-50%);
-    bottom:0px;
-    
+        bottom: 0px;
+    }
+    .wrapperWater {
+        top: 200px;
+        height: 1500px;
+    }
+    .slider {
+        top: 0px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .discription {
+        bottom: 100px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .discription {
+        bottom: 200px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .discriptionText {
+        width: 400px;
+    }
+    .discription {
+        bottom: 300px;
+    }
+    .place {
+        width: 400px;
+        top: 1080px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .discription {
+        bottom: 430px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .discriptionText {
+     font-size:15px;
+     width:300px;
+    }
+    .discription{
+        width:300px;
+        
+    }
+    .place{
+        font-size:15px;
+        width:300px;
+        top:860px;
     }
     .wrapperWater{
-        top:200px;
-        height:1500px;
+        top:-350px;
     }
-    .slider{
-        top:0px;
 
-    
-    }
-    }
+}

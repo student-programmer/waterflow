@@ -11,3 +11,16 @@
         height: 10500px;
     }
 }
+
+@media screen and (max-width: 600px) {
+     
+.App{
+height:10000px;
+}
+            }
+            @media screen and (max-width: 400px) {
+          .App{
+              height:7800px;
+          }
+            
+            }
