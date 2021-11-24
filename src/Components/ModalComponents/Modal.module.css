@@ -19,3 +19,17 @@
     z-index:16;
    position:absolute;
 }
+@media screen and (max-width: 1200px) {
+.modalContent{
+width:500px;
+height:500px;
+}
+         
+         }
+@media screen and (max-width: 500px) {
+.modalContent{
+width:300px;
+height:550px;
+}
+         
+         }
